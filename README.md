@@ -1,8 +1,8 @@
 # Low-Power-WiFi-Association
 
 This code helps demonstrate the time and energy consumed for the follwoing combinations
--[Join] DHCP / Static IP / w/PMK
--[Join Specific] DHCP / Static IP / w/PMK
+- [Join] DHCP / Static IP / w/PMK
+- [Join Specific] DHCP / Static IP / w/PMK
 
 ## Requirements
 
