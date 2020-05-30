@@ -127,10 +127,15 @@ void application_start(void)
     WPRINT_APP_INFO(("DONE\n"));
 }
 
-/******************************************************
- *               Function Definitions
- ******************************************************/
-
+/**
+ * PMK Calculation
+ *
+ * - Input params: ssid, password
+ *
+ * - Output: Pairwaise master key in hex
+ *
+ * @return WICED_SUCCESS if initialization is successful, Error code otherwise
+ */
 int calculate_pmk( char* ssid, char* passkey, char* output_pmk )
 {
     char pmk_hex[40];
